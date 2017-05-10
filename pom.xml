@@ -94,11 +94,13 @@
 </profiles>
 <distributionManagement>
 	       <repository>
-		<id>releases</id>
+	         <name>Release</name>
+	         <id>releases</id>
 		<url>http://10.138.90.57:8081/nexus/content/repositories/releases</url>
 	       </repository>
 	      <snapshotRepository>
-	            <id>snapshots</id>
+	           <name>Snapshots</name> 
+                    <id>snapshots</id>
 	            <url>http://10.138.90.57:8081/nexus/content/repositories/snapshots</url>
 	     </snapshotRepository>
 	</distributionManagement>
