@@ -96,12 +96,12 @@
 	       <repository>
 	         <name>Release</name>
 	         <id>releases</id>
-		<url>http://192.168.100.23:8081/nexus/content/repositories/releases</url>
+		<url>http://10.138.90.105:8080/nexus/content/repositories/releases/</url>
 	       </repository>
 	      <snapshotRepository>
 	           <name>Snapshots</name> 
                     <id>snapshots</id>
-	            <url>http://192.168.100.23:8081/nexus/content/repositories/snapshots</url>
+	            <url>http://10.138.90.105:8080/nexus/content/repositories/snapshots/</url>
 	     </snapshotRepository>
 	</distributionManagement>
 </project>
