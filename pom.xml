@@ -6,7 +6,7 @@
 	<groupId>com.tcs</groupId>
 	<artifactId>RestClient</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>RestClient</name>
 	<description>rest client to hit rest core service</description>
