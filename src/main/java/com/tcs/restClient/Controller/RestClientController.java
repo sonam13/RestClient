@@ -15,7 +15,7 @@ import com.tcs.restClient.Service.RestClientService;
 @Controller
 public class RestClientController {
 	@Autowired RestClientService restClientService; 
-	@RequestMapping(value = "/restClient", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody Object getResponse(@RequestBody Request request) throws UniformInterfaceException, ClientHandlerException, JSONException {
  		return restClientService.getResponse(request);
 	}
